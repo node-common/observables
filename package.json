@@ -1,0 +1,23 @@
+{
+  "name": "ts-observables",
+  "author": "Anton Repin <ar@xdire.io>",
+  "version": "1.0.0",
+  "licence": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "ts-exceptions": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-common/observables"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.*",
+    "@types/node": "^8.0.31"
+  }
+}
